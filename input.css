@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        @apply text-2xl font-bold md:text-4xl;
+    }
+    p{
+      @apply text-gray-500 space-y-3
+    }
+}
+.section-container{
+    @apply max-w-6xl mx-auto text-center;
+}
+.button-container{
+    @apply flex flex-col text-white justify-center space-y-6 w-full md:flex-row md:space-y-0 md:space-x-6
+}
